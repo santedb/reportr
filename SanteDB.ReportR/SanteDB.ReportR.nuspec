@@ -15,7 +15,11 @@
     <copyright>Copyright (C) 2015-2018, Mohawk College of Applied Arts and Technology</copyright>
     <tags>santedb</tags>
     <dependencies>
-      <dependency id="SanteDB.Core.Applets" Version="1.1.0"/>
+      <dependency id="SanteDB.Core.Applets"  version="1.1.0"/>
     </dependencies>
   </metadata>
+  <files>
+    <file src="..\Solution Items\Antlr3.Runtime.dll" target="lib\portable45-net45+win8"/>
+    <file src="..\Solution Items\ExpressionEvaluator.dll" target="lib\portable45-net45+win8"/>
+  </files>
 </package>
