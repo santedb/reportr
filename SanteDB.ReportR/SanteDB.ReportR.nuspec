@@ -17,8 +17,16 @@
     <dependencies>
       <dependency id="SanteDB.Core.Applets"  version="1.1.0"/>
     </dependencies>
+	  <references>
+      <group targetFramework="portable45-net45+win8">
+        <reference file="SanteDB.ReportR.dll"/>
+        <reference file="Antlr3.Runtime.dll"/>
+        <reference file="ExpressionEvaluator.dll"/>
+      </group>
+    </references>
   </metadata>
   <files>
+    <file src=".\SanteDB.ReportR.dll"
     <file src="..\Solution Items\Antlr3.Runtime.dll" target="lib\portable45-net45+win8"/>
     <file src="..\Solution Items\ExpressionEvaluator.dll" target="lib\portable45-net45+win8"/>
   </files>
