@@ -11,10 +11,11 @@
     <iconUrl>http://santedb.org/img/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The ReportR reports engine in SanteDB allows reports to be written once and executed on either the server environment or disconnected client.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Initial version</releaseNotes>
     <copyright>Copyright (C) 2015-2018, Mohawk College of Applied Arts and Technology</copyright>
     <tags>santedb</tags>
     <dependencies>
+      <dependency id="SanteDB.Core.Applets" Version="1.1.0"/>
     </dependencies>
   </metadata>
 </package>
