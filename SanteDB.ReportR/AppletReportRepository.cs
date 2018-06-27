@@ -22,13 +22,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SanteDB.Mobile.Reporting.Model;
+using SanteDB.ReportR.Model;
 using SanteDB.Core;
 using SanteDB.Core.Applets.Services;
 using System.Xml.Serialization;
 using System.IO;
 
-namespace SanteDB.Mobile.Reporting
+namespace SanteDB.ReportR
 {
     /// <summary>
     /// Represents a simple report repository

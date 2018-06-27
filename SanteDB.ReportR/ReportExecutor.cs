@@ -25,7 +25,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using SanteDB.Mobile.Reporting.Model;
+using SanteDB.ReportR.Model;
 using System.Xml.Linq;
 using System.Collections;
 using System.Reflection;
@@ -36,7 +36,7 @@ using System.Linq.Expressions;
 using SanteDB.Core.Model;
 using ExpressionEvaluator;
 
-namespace SanteDB.Mobile.Reporting
+namespace SanteDB.ReportR
 {
     /// <summary>
     /// Represents a class which executes the report

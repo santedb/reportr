@@ -17,14 +17,14 @@
  * User: fyfej
  * Date: 2017-9-1
  */
-using SanteDB.Mobile.Reporting.Model;
+using SanteDB.ReportR.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SanteDB.Mobile.Reporting
+namespace SanteDB.ReportR
 {
     /// <summary>
     /// Report repository

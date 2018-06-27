@@ -26,7 +26,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace SanteDB.Mobile.Reporting.Model
+namespace SanteDB.ReportR.Model
 {
     /// <summary>
     /// Report definition

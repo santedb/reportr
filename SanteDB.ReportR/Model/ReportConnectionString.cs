@@ -19,7 +19,7 @@
  */
 using System.Xml.Serialization;
 
-namespace SanteDB.Mobile.Reporting.Model
+namespace SanteDB.ReportR.Model
 {
     /// <summary>
     /// Report connection string
