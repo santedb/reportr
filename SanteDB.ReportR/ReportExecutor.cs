@@ -45,7 +45,7 @@ namespace SanteDB.ReportR
     {
 
         // Reporting
-        private readonly XNamespace xs_report = "http://openiz.org/mobile/reporting";
+        private readonly XNamespace xs_report = "http://santedb.org/mobile/reporting";
         private readonly XNamespace xs_html = "http://www.w3.org/1999/xhtml";
 
         private Dictionary<String, Delegate> m_cachedExpressions = new Dictionary<string, Delegate>();

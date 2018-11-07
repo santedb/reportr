@@ -25,7 +25,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Report parameter types
     /// </summary>
-    [XmlType(nameof(ReportPropertyType), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportPropertyType), Namespace = "http://santedb.org/mobile/reporting")]
     public enum ReportPropertyType
     {
         /// <summary>
@@ -50,7 +50,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Report parameter definition
     /// </summary>
-    [XmlType(nameof(ReportParameterDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportParameterDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     [JsonObject(nameof(ReportParameterDefinition))]
     public class ReportParameterDefinition : ReportPropertyDefinition
     {

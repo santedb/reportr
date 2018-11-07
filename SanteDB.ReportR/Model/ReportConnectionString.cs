@@ -24,7 +24,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Report connection string
     /// </summary>
-    [XmlType(nameof(ReportConnectionString), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportConnectionString), Namespace = "http://santedb.org/mobile/reporting")]
     public class ReportConnectionString
     {
 

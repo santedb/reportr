@@ -26,7 +26,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Represents a dataset definition
     /// </summary>
-    [XmlType(nameof(ReportDatasetDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportDatasetDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     [JsonObject(nameof(ReportDatasetDefinition))]
     public class ReportDatasetDefinition
     {

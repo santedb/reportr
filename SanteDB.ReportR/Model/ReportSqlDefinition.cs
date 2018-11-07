@@ -25,7 +25,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Represents report SQL definition
     /// </summary>
-    [XmlType(nameof(ReportSqlDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportSqlDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     [JsonObject(nameof(ReportSqlDefinition))]
     public class ReportSqlDefinition
     {

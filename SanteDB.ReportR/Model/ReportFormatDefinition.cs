@@ -26,7 +26,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Formatting control
     /// </summary>
-    [XmlType(nameof(ReportFormatDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportFormatDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     [JsonObject(nameof(ReportFormatDefinition))]
     public class ReportFormatDefinition
     {

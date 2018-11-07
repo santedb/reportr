@@ -25,7 +25,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Represents a report property definition
     /// </summary>
-    [XmlType(nameof(ReportPropertyDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportPropertyDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     [JsonObject(nameof(ReportPropertyDefinition))]
     public class ReportPropertyDefinition
     {

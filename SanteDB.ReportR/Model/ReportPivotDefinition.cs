@@ -25,7 +25,7 @@ namespace SanteDB.ReportR.Model
     /// <summary>
     /// Mobile pivot definition
     /// </summary>
-    [XmlType(nameof(ReportPivotDefinition), Namespace = "http://openiz.org/mobile/reporting")]
+    [XmlType(nameof(ReportPivotDefinition), Namespace = "http://santedb.org/mobile/reporting")]
     public class ReportPivotDefinition
     {
         /// <summary>
