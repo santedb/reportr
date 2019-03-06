@@ -72,8 +72,8 @@
     <Compile Include="ReportExecutor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\OpenIZDC.licenseheader">
-      <Link>OpenIZDC.licenseheader</Link>
+    <None Include="..\SanteDB.licenseheader">
+      <Link>SanteDB.licenseheader</Link>
     </None>
     <None Include="SanteDB.ReportR.nuspec" />
   </ItemGroup>
