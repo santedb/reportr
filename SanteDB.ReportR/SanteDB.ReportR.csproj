@@ -111,7 +111,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2">
       <HintPath>..\Solution Items\Antlr3.Runtime.dll</HintPath>
     </PackageReference>
   </ItemGroup>
